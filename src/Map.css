@@ -1,0 +1,25 @@
+.map-container {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.tile {
+  width: 32px;
+  background-color: darkgreen;
+  min-width: 32px;
+  height: 32px;
+  min-height: 32px;
+  border: 1px solid darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
