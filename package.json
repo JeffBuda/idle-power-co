@@ -1,5 +1,6 @@
 {
   "name": "idle-power-co",
+  "homepage": "https://JeffBuda.github.io/idle-power-co",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:dev": "vitest --watch"
+    "test:dev": "vitest --watch",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
